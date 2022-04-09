@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-size: 65.5%;
+	background-color: hsl(0, 0%, 95%);
+	font-weight: 400;
+}

@@ -1,0 +1,197 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 650px;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	background-color: hsl(0, 0%, 99%);
+}
+
+label,
+option,
+select,
+input,
+button {
+	font-size: 1.3rem;
+	opacity: 0.9;
+}
+
+input {
+	width: 100%;
+	margin: 1rem 0;
+	padding: 0.5rem;
+	outline: none;
+}
+
+input:focus,
+select:focus {
+	border: 2px solid green;
+}
+
+input[type="submit"] {
+	padding: 0.8rem 1rem;
+	width: 150px;
+	cursor: pointer;
+	background-color: hsl(120, 96%, 28%);
+	color: white;
+	border: none;
+	border-radius: 0.5rem;
+	transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: hsl(120, 96%, 32%);
+}
+
+select {
+	padding: 0.5rem;
+	outline: none;
+}
+
+button {
+	margin-left: 1rem;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+a {
+	position: absolute;
+	text-decoration: none;
+	font-size: 1.3rem;
+	top: 5rem;
+	right: 20rem;
+	color: black;
+	opacity: 0.9;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.new-category {
+	cursor: pointer;
+	margin-left: 3rem;
+	font-size: 2rem;
+}
+
+.add-category {
+	background-color: hsl(0, 0%, 99%);
+	padding: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 650px;
+	border: 1px solid rgba(0, 0, 0, 0.459);
+	border-radius: 0.5rem;
+}
+
+.add-category .btn {
+	font-size: 1.4rem;
+	justify-content: right;
+	cursor: pointer;
+}
+
+.add-category h4 {
+	font-size: 1.4rem;
+	margin-top: 1.5rem;
+}
+
+table {
+	width: 1200px;
+	font-size: 0.9rem;
+	table-layout: fixed;
+}
+
+thead tr {
+	text-align: left;
+}
+
+table button {
+	border: none;
+	background-color: transparent;
+	font-size: 0.9rem;
+}
+
+table button a {
+	position: relative;
+	top: 0;
+	right: 0;
+	font-size: 0.9rem;
+}
+
+th {
+	padding: 0.9rem 0;
+}
+
+.btn {
+	display: flex;
+}
+
+.sum {
+	margin-top: 4rem;
+	text-align: right;
+}
+
+.sum h4 {
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.sum h4 span {
+	font-weight: bold;
+}
+
+.count-position {
+	margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+	border: none;
+	margin: 0 0 2.5rem 0;
+	background-color: transparent;
+	text-transform: capitalize;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.filter {
+	display: flex;
+	align-items: center;
+}
+
+.sort {
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.5rem;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+.sort select {
+	padding: 0.2rem;
+	font-size: 0.8rem;
+	margin-left: 0.6rem;
+	border: none;
+	background-color: transparent;
+	font-weight: 500;
+}
+
+.sort label,
+.sort option {
+	font-size: 0.8rem;
+}
+
+.updateText {
+	text-align: center;
+	font-size: 1rem;
+	color: green;
+}
